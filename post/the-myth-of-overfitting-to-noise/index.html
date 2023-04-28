@@ -1,0 +1,251 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Myth of &#34;Overfitting to noise&#34; | Sbeam.dev</title>
+<link rel="shortcut icon" href="https://sbeam.dev/favicon.ico?v=1682640701222">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://sbeam.dev/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="The Myth of &#34;Overfitting to noise&#34; | Sbeam.dev - Atom Feed" href="https://sbeam.dev/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+<script src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+<script>
+  const heti = new Heti('.heti');
+  heti.autoSpacing();
+</script>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135436039-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-135436039-1');
+</script>
+
+
+    <meta name="description" content="TL;DR
+This post serves as a study note on the topic of &quot;overfitting&quot; in machine learning. It would also help t..." />
+    <meta name="keywords" content="Data Science" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://sbeam.dev">
+  <img class="avatar" src="https://sbeam.dev/images/avatar.png?v=1682640701222" alt="">
+  </a>
+  <h1 class="site-title">
+    Sbeam.dev
+  </h1>
+  <p class="site-description">
+    Tech, life and open discussion
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          Home
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          Archives
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          Tags
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          About
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/SuperAIdesu" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              The Myth of &#34;Overfitting to noise&#34;
+            </h2>
+            <div class="post-info">
+              <span>
+                2022-11-14
+              </span>
+              <span>
+                6 min read
+              </span>
+              
+                <a href="https://sbeam.dev/tag/data_science/" class="post-tag">
+                  # Data Science
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://github.com/ethen8181/machine-learning/blob/master/regularization/images/bias_variance.png?raw=true" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content heti" v-pre>
+                <h2 id="tldr">TL;DR</h2>
+<p>This post serves as a study note on the topic of &quot;overfitting&quot; in machine learning. It would also help to clarify some common misunderstandings on this topic. Although &quot;overfitting to noise&quot; is common, it's not the root cause of the lack of generalization in overly complex models.</p>
+<!-- more -->
+<h2 id="review-a-classic-example">Review: a classic example</h2>
+<p>In most introductory materials of machine learning, the issue of &quot;overfitting&quot; is illustrated  using something similar to the graph below. Here the data was generated from a smooth function, with some random noises added to it. A polynomial regression model was used to fit the data. When the order of the polynomial was set too high(30 in the figure), the model tried to fit the noise and failed to generalize. Although the error was low on the training data, it can't predict well for new points generated from this curve. Bad.</p>
+<img src="https://s2.loli.net/2022/11/16/LQUHKPgRYeXw7Cr.png" alt="overfit_noise.png" style="zoom:67%;" />
+<p>Noisy data is everywhere, especially in regression tasks, due to measurement error. For classification tasks, it's possible due to mislabeling and ambiguous samples(Think about an image with both a cat and a dog in it. Its label can be both &quot;cat&quot; and &quot;dog&quot;!).</p>
+<p>According to the classic materials, this is why regularization and cross validation are needed.</p>
+<h2 id="this-is-not-the-whole-story">This is not the whole story</h2>
+<p>Ok, so suppose we now have a clean training dataset. We can have each sample carefully checked and we are sure that the labels are correct(Think about benchmark datasets like MNIST). Then we don't need to worry about regularization because there is no noise, right? Actually no. If we train a complex neural network model on it, for many epochs, it is likely to still fail on testing data.</p>
+<p>Back to a synthetic regression example. The data was still generated from a smooth function, with no added noise. The graph below shows the fit for a high order polynomial(order is 40) model. Still pretty bad.</p>
+<img src="https://s2.loli.net/2022/11/16/zXk2sCcQf4blaKE.png" alt="overfit_wo_noise.png" style="zoom:67%;" />
+<h2 id="why-a-simple-explanation">Why? A simple explanation</h2>
+<p>Suppose the model has <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">m</span></span></span></span> parameters and the training data size is <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi mathvariant="script">F</mi><mi>m</mi></msub></mrow><annotation encoding="application/x-tex">\mathcal{F}_m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> is the hypothesis space, which means the set of all possible models. In the above example, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="script">F</mi></mrow><annotation encoding="application/x-tex">\mathcal{F}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span></span></span></span> contains all polynomials of the given order(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">m-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">m</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>, to be exact). Denote the parameters for the best solution in the hypothesis space <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>θ</mi><mo>⋆</mo></msup><mo>=</mo><msub><mrow><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi></mrow><mi>θ</mi></msub><mi>R</mi><mo>(</mo><mi>θ</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\theta^\star=\mathrm{argmin}_\theta R(\theta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.688696em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">⋆</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">a</span><span class="mord mathrm">r</span><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="mord mathrm">m</span><span class="mord mathrm">i</span><span class="mord mathrm">n</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.24196799999999993em;"><span style="top:-2.4558600000000004em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24414em;"><span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.02778em;">θ</span><span class="mclose">)</span></span></span></span>, where <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi><mo>(</mo><mo>)</mo></mrow><annotation encoding="application/x-tex">R()</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mopen">(</span><span class="mclose">)</span></span></span></span> is the risk function(expectation of the loss function). The generalization error on a testing sample can be formulated as follows:</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>f</mi><mover accent="true"><mi>θ</mi><mo>^</mo></mover></msub><mo>−</mo><msup><mi>f</mi><mo>∗</mo></msup><mo>=</mo><mo>(</mo><msub><mi>f</mi><mover accent="true"><mi>θ</mi><mo>^</mo></mover></msub><mo>−</mo><msub><mi>f</mi><msup><mi>θ</mi><mo>∗</mo></msup></msub><mo>)</mo><mo>+</mo><mo>(</mo><msub><mi>f</mi><msup><mi>θ</mi><mo>∗</mo></msup></msub><mo>−</mo><msup><mi>f</mi><mo>∗</mo></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">f_{\hat{\theta}}-f^*=(f_{\hat{\theta}}-f_{\theta^*})+(f_{\theta^*}-f^*)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0201559999999998em;vertical-align:-0.3257159999999999em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3742840000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span></span></span><span style="top:-2.9634400000000003em;"><span class="pstrut" style="height:2.7em;"></span><span class="accent-body" style="left:-0.16666em;"><span class="mtight">^</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3257159999999999em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.933136em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.738696em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.075716em;vertical-align:-0.3257159999999999em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3742840000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span></span></span><span style="top:-2.9634400000000003em;"><span class="pstrut" style="height:2.7em;"></span><span class="accent-body" style="left:-0.16666em;"><span class="mtight">^</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3257159999999999em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6183428571428571em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6183428571428571em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.738696em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>where <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>f</mi><mover accent="true"><mi>θ</mi><mo>^</mo></mover></msub></mrow><annotation encoding="application/x-tex">f_{\hat\theta}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0201559999999998em;vertical-align:-0.3257159999999999em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3742840000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span></span><span style="top:-2.9634400000000003em;"><span class="pstrut" style="height:2.7em;"></span><span class="accent-body" style="left:-0.16666em;"><span class="mtight">^</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3257159999999999em;"><span></span></span></span></span></span></span></span></span></span> is the trained model, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>f</mi><mo>⋆</mo></msup></mrow><annotation encoding="application/x-tex">f^\star</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.688696em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">⋆</span></span></span></span></span></span></span></span></span></span></span> is the ground truth, and <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>f</mi><msup><mi>θ</mi><mo>⋆</mo></msup></msub></mrow><annotation encoding="application/x-tex">f_{\theta^\star}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6183428571428571em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mbin mtight">⋆</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> is the best model in <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi mathvariant="script">F</mi><mi>m</mi></msub></mrow><annotation encoding="application/x-tex">\mathcal{F}_m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>.</p>
+<p>We call the first part &quot;approximation error&quot;. This part is not related to the training set. It only depends on the hypothesis space. Generally, if the hypothesis space is larger, this term gets smaller. For example, if we include higher order polynomials in the hypothesis space, we can get closer to the ground truth using the best possible model.</p>
+<p>We call the second part &quot;estimation error&quot;. We have this term because we can't get the best possible model in the hypothesis space using finite training samples, even when the data is completely clean. In the example above, there are many potential high order polynomials that can fit (almost) perfectly to the data. Among all these solutions, some are better for generalization, and some are worse. For a large hypothesis space(complex models), there can be many bad solutions, so it's almost sure that the &quot;estimation error&quot; will be large. Here we have &quot;overfitting&quot; again, and regularization can help reduce it.</p>
+<h2 id="it-can-get-complicated">It can get complicated</h2>
+<p>In this <a href="https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote12.html">link</a>, the expected test error under squared loss are separated into bias, variance and noise. The &quot;approximation error&quot; above is bias, and the &quot;estimation error&quot; includes both variance and noise. It's clear from the decomposition that the root cause of overfitting is the variance term.</p>
+<p>For modern model structures such as neural networks, it can get more complicated. In this <a href="https://arxiv.org/pdf/2003.01054.pdf">paper</a>, the test error are decomposed to &quot;bias&quot;, &quot;noise variance&quot;, &quot;initialization variance&quot;, and &quot;sampling variance&quot;. Roughly speaking, the &quot;variance&quot; part in the above decomposition was again separated according to their causes: &quot;initialization&quot; and &quot;sampling&quot;.</p>
+<p>Also, from the above research, the generalization error curve may not be the classic U-shaped curve. As the parameter size increases, the test error may decrease again. It's called &quot;Double descent&quot;. There might even be &quot;triple descent&quot;s(<a href="https://proceedings.neurips.cc/paper/2020/hash/1fd09c5f59a8ff35d499c0ee25a1d47e-Abstract.html">link</a>).</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Now we have looked briefly into the issue of &quot;overfitting&quot;. The classic explanation of &quot;overfitting to noise&quot; is over-simplified. The root cause of &quot;overfitting&quot; can be seen as the lack of ability to choose the best model using finite training data.</p>
+<p>This post is heavily based on lecture notes from one of my undergraduate courses.</p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#tldr">TL;DR</a></li>
+<li><a href="#review-a-classic-example">Review: a classic example</a></li>
+<li><a href="#this-is-not-the-whole-story">This is not the whole story</a></li>
+<li><a href="#why-a-simple-explanation">Why? A simple explanation</a></li>
+<li><a href="#it-can-get-complicated">It can get complicated</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://sbeam.dev/post/monthly-oct-2022/">
+              <h3 class="post-title">
+                月報 Monthly | Oct 2022
+              </h3>
+            </a>
+          </div>
+        
+
+        
+          
+
+          
+            <link rel="stylesheet" href="https://unpkg.com/disqusjs@1.1/dist/disqusjs.css">
+<script src="https://unpkg.com/disqusjs@1.1/dist/disqus.js"></script>
+
+<div id="disqus_thread"></div>
+
+<script>
+
+var options = {
+  shortname: 'sbeamdev',
+  apikey: '9eq2NY02Zzk98EdoRORXszv2reTWjryhm9OKetu2R3grKbeh7fae24YkRCPzC2Cq',
+}
+if ('') {
+  options.api = ''
+}
+var dsqjs = new DisqusJS(options)
+
+</script>
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://sbeam.dev/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

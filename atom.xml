@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://sbeam.dev</id>
+    <title>Sbeam.dev</title>
+    <updated>2023-04-28T00:12:22.903Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://sbeam.dev"/>
+    <link rel="self" href="https://sbeam.dev/atom.xml"/>
+    <subtitle>Tech, life and open discussion</subtitle>
+    <logo>https://sbeam.dev/images/avatar.png</logo>
+    <icon>https://sbeam.dev/favicon.ico</icon>
+    <rights>All rights reserved 2023, Sbeam.dev</rights>
+    <entry>
+        <title type="html"><![CDATA[月報 Monthly | Apr 2023]]></title>
+        <id>https://sbeam.dev/post/monthly-apr-2023/</id>
+        <link href="https://sbeam.dev/post/monthly-apr-2023/">
+        </link>
+        <updated>2023-04-27T10:26:09.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>本月的書影音內容竟然全部是日文作品，這樣下去英文恐怕是要日漸荒廢了。讀完了上期提到的長篇系列，還讀了一些短篇小說和漫畫。影視方面，看了鈴芽，正在絕贊補《輕音》系列中。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>本月的書影音內容竟然全部是日文作品，這樣下去英文恐怕是要日漸荒廢了。讀完了上期提到的長篇系列，還讀了一些短篇小說和漫畫。影視方面，看了鈴芽，正在絕贊補《輕音》系列中。</p>
+<!-- more -->
+<h2 id="書-books">書 Books</h2>
+<ul>
+<li>
+<p><strong>《太陽諸島》</strong>, by 多和田葉子, <strong>4.5/5</strong>。（<em>以下整理自月初發表在Fedi的內容</em>）接上月讀過的兩本，系列三本完結，是目前讀過最長的日文書，最後一本super rewarding。在第二本有點亂掉的節奏又回來了。讀完有一種熱淚盈眶的感覺，果然是爲當代所有世界遊民所作的神話啊。</p>
+<p>雖然最後故事都沒有走出歐洲，但是對波羅的海周圍地方的風貌和人文描述都相當細緻和準確。想來是作者長期在歐洲生活之故，深度遠超很多其它日本作者。书里自创语言パンスカ语的设定很有意思，是北欧各种语言混合而成，周边各国人都能听懂，随着女主不断流动其中各种语言的成分也相应变化。在不同國家與文化地區間移動的人很容易對此產生共感。</p>
+<p>書的主題（語言、移民、文化）之外，對人際關係的描寫也很微妙。本書兩個主角hiruko和knut是極爲稀少的我會感嘆太wholesome了的男女主關係。</p>
+<p>摘一些最後的片段，共勉。</p>
+<blockquote>
+<p>「わたしは子供の頃、家にイイエと言われ続けた。家はお嬢様かお姫様を求めているのに自分はそれとは別のものだ、と感じていた。だから今度は自分の方から家にイイエと告げて、遠い土地に去った。」</p>
+<p>（“家”和“不”日文發音相近）「我小時候總是在家被說“不要這樣”。家裏想要一個大小姐或者公主般（乖巧可愛的）孩子，而我覺得自己與這格格不入。因此這次是我自己對這個家說“不”，去到了遙遠的土地。」</p>
+<p>「カップルという言葉はバスタブ。家の一部に過ぎない。毎日朝から晩までバスタブに入っている人はいない。わたしはバスタブではなくて家になりたい。 ハウスボート。海のボヘミアン。」</p>
+<p>「“情侶”這個詞就像是浴缸一樣，只是家中的一部分。沒有人每天從早到晚都泡在浴缸中。我希望成為一個家，而不是一個浴缸。一艘豪華水屋，像海洋中的波希米亞人一樣自由自在。」</p>
+<p>「いっそのこと自分自身が家なのだと考えれば不安は消えるかもしれない。どの土地に移り住んでも、自分が家なのだから、家を失うことはない。」</p>
+<p>「如果把自己本身當成家，或許就能消除不安感。不論移住到哪邊的土地，只要自己就是家，就不會失去家。」</p>
+</blockquote>
+</li>
+<li>
+<p><strong>《丸の内魔法少女ミラクリーナ》</strong>, by 村田沙耶香, <strong>4/5</strong>。之前讀過的<a href="https://sbeam.dev/post/monthly-nov-2022/">《便利店人間》</a>的作者新作。四個短篇小說的集合，目前還差最後一篇沒讀，先說說前幾篇吧。整體延續了作者一貫的“日本社會下奇怪的人”系列，但相比前作感覺更具衝擊性，可能因爲短篇的形式可以進行更多的創作嘗試。（注意下文可能含有劇透）</p>
+<ul>
+<li>表題作“魔法少女”。（36歲卻仍心懷自己是魔法少女的妄想的社會人女性，爲讓從小熟識的友人能與PUA暴力男友分手想盡辦法。結果該男友也“成爲”魔法少女在東京站內巡邏，性情也大爲改善。這讓主人公對自己和自己一直抱持的美好幻想感到失落，但後來主人公和友人發現，他只是利用成爲魔法少女這個藉口發泄壓力，最終暴力男原形畢露，結局圓滿。）可能有點俗的故事走向，但情境寫的很好，讀來爽快。主題除了友情和正義，也可以作女性主義的解讀。（或許，日本街上來往的普通社畜中，就真的有那麼幾個其實是有隱藏的奇妙身份呢？）</li>
+<li>“祕密花園”。除了表題作之外，其它短篇似乎”怪“的成分更大一些，含有相當多重口味性相關內容。（上了大學仍忘不掉初戀的女主將小學的初戀男人監禁在自宅一週，親手將對這個人的幻想戳破。）看前半還以爲主角是一種asexual spectrum下面的microlabel，對現實的人沒有吸引但是會對幻想的人有。但是看到後來發現好像也不是。我不懂啊！（大爲震撼）</li>
+<li>”無性教室“。（設定在一個”性別“，或者說是gender representation，被禁止的學校。女主愛上了一個不能辨別性別的人，嘗試刨根問底但失敗，最後意識到性別不重要只要是這個人就行。）很有意思的設定，大概意在把性衝動和性享受本身從性別這個概念脫離，打破性向同/異的絕對劃分，在日本作品裏也是很少見的。（看的時候想到一點：在學校場合，同樣是打破既有性別刻板印象的問題，西方的做法是給所有人自由，想怎麼穿或自認什麼身份都可以；而日本的做法是，移除水手服，所有人都穿襯衫西裝褲子。這是爲什麼，東亞人好像真的改不掉”合羣“的慣性啊。）</li>
+</ul>
+</li>
+<li>
+<p><strong>《不可解なぼくのすべてを》</strong>（漫畫）, by  粉山カタ, <strong>N/A</strong>。非二元性別主角，角色包含很多各種性/別身份的人，沒有過分媚宅，描繪還是相對真實的。唯一遺憾的點是關於主角戀愛的發展有些過於生拉硬扯，當然也可能是作爲讀者的我的問題。</p>
+</li>
+</ul>
+<h2 id="影視-film-tv">影視 Film &amp; TV</h2>
+<ul>
+<li><strong>《すずめの戸締まり(Suzume)》</strong>。 時隔多年，《君の名は》之後第一次看新海誠作品。美術和音樂還是一貫的高水準，但這次的劇情脫離了戀愛主線，其實非常對我口味。個人認爲情節不能單從表層理解，而是結合其象徵意義來體會。例如如果單純認爲男女主是”戀愛“或者好感，那女主後續的行爲就顯得不合理。我覺得男主只是作爲一個trigger和一個嚮導，最終這個旅程是屬於鈴芽的，被旅途中遇到的所有人成就的。是一個個人創傷和集體創傷（災害）交織的主題。</li>
+<li><strong>《K-ON!》</strong>。”ふわふわタイム“耳熟能詳了很多年，卻剛開始補這部作品。雖然與”孤獨搖滾“都是高中生組成樂隊的題材，但輕音是萌系角色，經典二次元風味，太好了。好像和孤獨搖滾一樣，這部也在美國很有人氣。（呆唯和梓喵超可愛）</li>
+</ul>
+<h2 id="結-final-words">結 Final words</h2>
+<p>竟然堅持下來每月寫博客了，雖然除了月報並沒能產出什麼別的內容。與剛開始寫這個欄目的時候相比，我的閱讀習慣好像發生了相當的變化。一方面non-fiction的比重顯著變少了，另一方面日文比例提升了。可能是一方面生活變動導致時間更加破碎，更難啃下厚重的non-fiction；另一方面語言能力提升使我能讀一些新的更讓我感興趣的fiction作品。但暑假應該會換換口味，讀更多一些英文的東西。</p>
+<p>生活越來越好了，感謝現代醫學和身邊願意跟我說話的人們。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[月報 Monthly | Mar 2023]]></title>
+        <id>https://sbeam.dev/post/monthly-mar-2023/</id>
+        <link href="https://sbeam.dev/post/monthly-mar-2023/">
+        </link>
+        <updated>2023-03-24T18:45:57.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>這個月緩慢地看完了兩本長日文小說，之後在生活疲倦之中補完了一些輕鬆愉快的科幻作品。希望天氣快些暖和起來。提示：可能會劇透的內容進行了折疊，點擊標題展開。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>這個月緩慢地看完了兩本長日文小說，之後在生活疲倦之中補完了一些輕鬆愉快的科幻作品。希望天氣快些暖和起來。提示：可能會劇透的內容進行了折疊，點擊標題展開。</p>
+<!-- more -->
+<h2 id="書-books">書 Books</h2>
+<ul>
+<li>
+<p><strong>《地球にちりばめられて》，《星に仄めかされて》</strong>, by 多和田葉子, 第一本<strong>4.5/5</strong>, 第二本<strong>3.5/5</strong>。系列共三本，目前讀完了前兩作。我感覺這是一種很新的文學類型，又有科幻，又有明顯的神話和歷史內容，又處處暗示現實。作品設定在近未來時代，日本突然沉沒，在北歐留學的日本人主人公Hiruko希望尋找其它能說母語的人，故事從此展開。</p>
+<p>第一本的寫作節奏掌握得很好。一方面雖然世界觀是環境破壞、社會動盪的時代，卻從北歐這一相對安定的環境以及主角們的個人生活與人際交往展開，逐漸透露設定，讀來既舒適又引人入勝。另一方面整本書（基本上）每章更換敘述者，並引入一個新的角色，在敘述主線故事之外插入角色的回憶，不同角色身份背景不同，所用語言風格也不同，這讓角色形象非常豐滿。</p>
+  <details>
+  <summary>出身世界各地的主要角色們</summary>
+  Hiruko： 日本人女性（據設定在當時的日本性慾被消滅，因此姑且也算ace），長期在北歐多國生活，自創北歐混合語並日常使用。
+  Knut： 丹麥男性，語言學研究者，對女主所用的語言感興趣而結識，其後兩人建立了深厚的關係。
+  Akash: 印度跨女，因自身文化背景未用hrt等醫學手段，而通過傳統文化手段實現身體轉變。日常穿紅色莎麗，善解人意，樂於助人，在世界各地都有朋友網絡。
+  Nola: 德國女性，在博物館工作，有點戀愛腦。
+  Nanuk: 格陵蘭男性，受資助來丹麥留學後一直在壽司店工作，自學日語，長期扮演日本人。在旅行中受傷被Nola所救，兩人開始戀愛，但在其中感到不自在，因而想要逃離。
+	</details>
+  <details>
+  <summary>目前還記得的幾個有趣的設定</summary>
+  1. 大西洋的鮭魚傳說因爲投放了過多催長劑，食後會導致生殖系統異常，因而被人避開；2. 在故事發生的不久之前，如果會說英語有被遣送至美國的風險，因爲中國停止輸出工業品，美國又缺少能從事生產的工人；3. 格陵蘭因爲氣候暖化，能種植蔬菜，而當地人爲獲取收入，都在從事遠程客戶支持工作；4. 傳說日本之所以沉沒是政治家想把山剷平，把原本屬於鄉村的地方納入都市圈。
+	</details>
+<p>從中可以一瞥本書很宏大又很讓人忍俊不禁的世界觀。可惜第二本個人認爲多了一些缺點。故事在一些支線劇情上花費太多篇幅，例如Nola和Nanuk的戀愛，Nanuk和（新出現的，性格糟糕的）醫生角色的人格交換，Knut的母親的身世等。另一方面重要的情節顯得突兀和有些離譜（第一本雖然也離譜但在這個世界觀中還是合理的），似乎作者已經放棄了營造一個自洽的設定，而是將情節完全作爲一種神話或寓言性質的象徵。還是很想把剩下一本讀完，看能不能解開我的疑惑。</p>
+</li>
+<li>
+<p><strong>&quot;Network effect&quot;, &quot;Fugitive telemetry&quot;</strong>, by Martha Wells, <strong>5/5</strong>。Murderbot系列的最新兩作，前一本是完整小說長度，後一本屬於中篇。從人物設定、世界觀、劇情展開、文筆風格各方面都很絕，是個人最喜歡的科幻系列。</p>
+  <details>
+  <summary>爲什麼我（和許多其它讀者）能relate半生物半機器的主角</summary>
+  主角Murderbot除去超強的分析、戰鬥能力外，基本就是一個此前長期失去自由、受到創傷、恐懼人際交往、只想獨處看媒體的人類。相信成長在東亞某國的大家都能理解這種體驗。主角是幸運的，能夠遇到願意平等相待的人類夥伴，並在任務中發光發熱。在新作兩本中這種人物轉變更加明顯，無論是關於Mensah的創傷治療，還是Murderbot對Mensah年輕女兒的態度，都寫得很真實而微妙。因此這個系列不單單是死宅超級英雄暴打黑惡勢力的爽文，而是一個受創的靈魂重新找回自我的成長/療愈故事。
+  </details>
+</li>
+</ul>
+<h2 id="動畫-bangumi">動畫 Bangumi</h2>
+<ul>
+<li><strong>《お兄ちゃんはおしまい！》（別醬了）</strong>。可愛日常番（確信）。4/5。</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[月報 Monthly | Feb 2023]]></title>
+        <id>https://sbeam.dev/post/monthly-feb-2023/</id>
+        <link href="https://sbeam.dev/post/monthly-feb-2023/">
+        </link>
+        <updated>2023-02-15T14:53:13.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>這篇內容還算比較充實。標題寫着二月，但其實書大多是一月看的。有涉獵一些新的領域，比如戀愛小說（？）和話劇。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>這篇內容還算比較充實。標題寫着二月，但其實書大多是一月看的。有涉獵一些新的領域，比如戀愛小說（？）和話劇。</p>
+<!-- more -->
+<h2 id="書-books">書 Books</h2>
+<ul>
+<li>
+<p><strong>《きらきらひかる》</strong>, by 江國香織, <strong>4.5/5</strong>。看的簡體中文譯本，首先批評翻譯標題”那年，我們愛得閃閃發亮“，完全不符合信達雅的原則。本書收錄了作者的多篇作品，只讀了同名中篇。故事是同性戀形婚，男主另有同性情人，女主酗酒且有情緒障礙。個人不認爲作品屬於”戀愛小說“，更像人性劇，畢竟主線中男女主之間並不是戀愛感情。男女主兩方雖然都有不普通的身份或個性，但都很能讓人感到共感，例如男主因愧疚自己是同性戀不能給女主投入感情而希望女主也約會其他人；女主雖感到關愛但仍無法抑制自己的不安；家庭和社會對婚姻的刻板理解和對生育的壓力等等。結局三人組成了多元關係/家庭形式。很難想像是90年代初的作品。</p>
+</li>
+<li>
+<p><strong>《在奇幻地》</strong>, by 林徐達, <strong>3.5/5</strong>。有關在精神病院進行人類學調研的研究著作。精神疾病相關的書在本站也是常客了，例如11月期的”<a href="https://sbeam.dev/post/monthly-nov-2022/">Strangers to ourselves</a>“，5月期的《<a href="https://sbeam.dev/post/2022-1-reading-list/">心靈的傷，身體會記住</a>》。本書跟”Strangers to ourselves“一脈相承，都探究醫學對精神疾病的認識和處理，但本書以人類學視角，聚焦於精神病院住民的生活現實。在這個田野環境中，觀察住民之間以及住民和醫護之間的緊張關係、醫護僵硬與靈活共存的工作方式、不同專業的工作人員對住民認識的複雜性等等。遺憾的是，由於寫作風格過於學術化，加之個人受人類學教育有限，沒有很能讀懂。附上在”芭樂人類學“博客中刊載的<a href="https://guavanthropology.tw/article/6973">書評</a>和<a href="https://guavanthropology.tw/article/6976">作者回應</a>。</p>
+</li>
+<li>
+<p><strong>《スペシャルＱトなぼくら》</strong>, by 如月かずさ, <strong>4/5</strong>。算是日本的青少年文學作品，少見地在青少年讀物中給了questioning和無浪漫無性吸引者的representation。與美國這類讀物不同，沒有性相關和與社會的激烈衝突內容，整體非常健全和微妙，也可以說是顧及社會觀感導致放不開。從側面其實體現日本社會對性別表達多元是比較寬容（前提是服美役）。讀來文風略有乾癟，應該是爲了讀者年齡寫得比較易讀。封面很可愛。</p>
+<details>
+  <summary>強套西方術語（這不太好！）的劇情梗概</summary>
+  兩個主角A和B都是初中生，生理男性。B偶然發現A化妝打扮在外逛街，得知A是性別認同爲questioning。在二人拉近關係的過程中B也覺醒了自己questioning的性別認同，並認爲自己對A有戀愛感情。但當B向A表白心意，發現A是無浪漫無性吸引並因此苦惱。結局二人進入Queerplatonic relationship。
+</details>
+</li>
+</ul>
+<img src="https://s2.loli.net/2023/02/17/2Yv4P1kKIjhrRG9.jpg" alt="9784065269787_w.jpg" style="zoom:33%;" />
+<h2 id="影-film-tv">影 Film &amp; TV</h2>
+<ul>
+<li>
+<p><strong>《川っぺりムコリッタ》</strong>. 譯名《河畔須臾》。導演是執導《かもめ食堂（海鷗食堂）》的荻上直子，本作也是一樣的溫暖清新的畫風，串上許多生活飲食日常。主題圍繞死亡展開，但不是那種看了會抑鬱的片。4.5/5.</p>
+<details>
+  <summary>劇情</summary>
+  男主刑滿釋放，在水產加工廠做工，河邊的平房居住，開始新的生活。這時他獲知從小疏遠的父親孤獨死，骨灰拿到手上，不得不面對如何處置這一突如其來的死亡。在新住處，還有種菜的大叔、守寡的女房東、推銷墓碑的父子、死去住人的鬼魂等人，各自以自己的方式處理着死亡。男主逐漸建立了新的人際關係，並爲亡父舉行葬禮。
+</details>
+<img src="https://s2.loli.net/2023/02/17/N4XcTmVyn1LRqMK.webp" alt="flyer_1.webp" style="zoom: 33%;" />
+</li>
+<li>
+<p><strong>&quot;Everything Everywhere All at Once&quot;</strong>. 在商業大片中的佳作，特效和演出都很好。劇情雖然最後還是老套的家庭和解生活繼續，但加入對東亞特色家庭環境、移民經歷、女同性戀等新東西，還是有意思的。缺點在有些玩的梗太怪了，有點過度。好喜歡女兒Joy（指aesthetic attraction）。4/5.</p>
+</li>
+<li>
+<p><strong>《さかなのこ》</strong>. 譯名《魚之子》。原型是”魚君“（<a href="https://ja.wikipedia.org/wiki/%E3%81%95%E3%81%8B%E3%81%AA%E3%82%AF%E3%83%B3">さかなクン</a>），本人也有在電影中客串。講述從小癡迷魚類的主角從不被理解、長期打工到實現夢想成爲魚博士的成長故事。原本是男性的主角卻用女性演員出演，並在開篇打上字幕說&quot;性別什麼的不重要&quot;，挺有意思。整體節奏有些時候顯得太慢，有些時候則太急，算是缺憾之處。3.5/5.</p>
+<img src="https://s2.loli.net/2023/02/17/Zr73tkjVv58TFgA.jpg" alt="189461_02.jpg" style="zoom:33%;" />
+</li>
+</ul>
+<h2 id="劇-theater">劇 Theater</h2>
+<p>個人覺得這兩個都是同類型劇的天花板了。都是坐在第一排看的，體驗極佳。連結是紐時劇評，寫這個比我專業，我少一些獻醜。</p>
+<ul>
+<li><strong>&quot;<a href="https://www.nytimes.com/2022/11/10/theater/kimberly-akimbo-review.html">Kimberly Akimbo</a>&quot;</strong>. 第一次看外文劇笑得這麼開心。而且不是光笑，故事和主題也很好，很感動。好喜歡配角組裏那個亞裔男孩子（指aesthetic attraction）。5/5.</li>
+<li><strong>&quot;<a href="https://www.nytimes.com/2023/01/26/theater/memorial-review-play-livian-yeh.html">Memorial</a>&quot;</strong>. 小劇場，演出時候我都不太敢動怕干擾演出。講述華盛頓的<a href="https://en.wikipedia.org/wiki/Vietnam_Veterans_Memorial">越戰紀念碑</a>興建時引發的爭議。女主林瓔（Maya Lin）竟是林徽因的親戚。由於劇對越戰時社會背景的描寫有限，女主或許顯得過於理想主義，這時從其母親口中講述的林徽因設計人民英雄紀念碑的背景故事爲女主的堅持增加了深度。對歷史的紀念不應變成單方面的頌揚。快結束時聽到場裏有吸鼻子的聲音，我也在強忍淚水。4.5/5.</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[書影音假日特別版]]></title>
+        <id>https://sbeam.dev/post/reading-22holidays/</id>
+        <link href="https://sbeam.dev/post/reading-22holidays/">
+        </link>
+        <updated>2023-01-05T19:49:21.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>給自己放了一個挺長的假。終於讀完了東大ボカロ講義，還看了一些電影，玩了一些新遊戲。趁還有空先寫了，下次可能等到二月再寫。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>給自己放了一個挺長的假。終於讀完了東大ボカロ講義，還看了一些電影，玩了一些新遊戲。趁還有空先寫了，下次可能等到二月再寫。</p>
+<!-- more -->
+<p>本期開始打算爲書以外的內容也添加五分制評分。需要注意的是，本人評書努力從客觀視角出發，評影音遊戲則受個人喜好影響很大，不應過於嚴肅看待，故置於文末，不作加粗。</p>
+<h2 id="書-books">書 Books</h2>
+<p><strong>《東京大学「ボーカロイド音楽論」講義》</strong>, by 鮎川ぱて, <strong>4.5/5</strong>。九月就買來，看到足足五百多頁厚如教科書，拖到放假終於一口氣讀完。如其標題所述，該書是由東京大學同名通識課程（面向一年級學生）的講義編纂而成，分16章。除正文和註釋部分外，每頁底部介紹一首vocaloid曲子，附有評論和封面圖。講義的內容從對vocaloid曲目的分析出發，涉及社會學，哲學，精神分析，表象文化論等多方面知識，嘗試探求vocaloid文化所代表的時代性。雖說涉及相當多方面的理論內容，由於與耳熟能詳的vocaloid曲目結合，讀來不感枯燥。作者也並非僅是借流行文化之名強加某種理論框架，如同書中反覆講的，本書的分析方式是感性優先，不作全稱命題式的論斷。正因如此，作爲對vocaloid文化已有所認識的本人，讀來能基於自身感悟，產生許多新的認識和共鳴。下按照書中三個主要部分淺述其中內容。</p>
+<ul>
+<li>第一部分，“Anti-sexual的時代”（需注意此處是作者自造片假詞，並無英文對應）。從ハチ和wowaka引入，重點放在對五首有關“本應是同一個人的分裂表現”的名曲（lost one的號哭，馬賽克卷，心臟民主，敬啓分身，meltyland nightmare）的分析。表面上曲目的風格和內容各有不同，例如《lost one的號哭》是關於學校裏的邊緣人，而《meltyland nightmare》是關於夢境，但其中的”分裂“這一特質，可以通過青春期”性的到來“對自我的衝擊來理解。對這一視角的暗示可以從歌詞、PV等多處發現。這一部分理論內容包括福柯、黑格爾、精神分析，以及對音樂表現手法的一些論述。還談到了初音Miku的”後角色性“與現在網絡世界”可分的個人“以及上述的自我分裂的共通性。</li>
+<li>第二部分，“2020年代的性/別論”。從系統介紹性/別論和LGBT+羣體開始，再聯繫到發展障礙人羣，探討通過言語，多數施加於少數的暴力。這部分的中心曲目是Neru的《東京泰迪熊》，作者認爲這是關於”對身體的重新構築“的作品，並用自造詞anti-physical形容。這部分的理論涉及拉康，本質主義與構築主義，Butler等。這部分最後，作者還探討了80-90年代日本的戀愛至上/市場主義（與vocaloid多爲anti-lovesong對比），當代的基於外表的歧視（Lookism）等具有時代特色的話題。</li>
+<li>第三部分，“爲了所有的聲音”。這一部分主要是關於音樂和聲音本質的，涉及表象文化論。對不同的曲目，進行了對於映像表現、押韻、回聲的探討。時間是這一部分的重要話題，由於vocaloid是音節的拼接組合，作者將其類比於錄音技術的出現，認爲其進一步打散了人們對音樂背後時間的認識。結尾聚焦在英年早逝的ぽわぽわP，其自傳性質的作品和不斷重複和改進的作品系列。</li>
+</ul>
+<h2 id="影-film-tv">影 Film &amp; TV</h2>
+<ul>
+<li><strong>&quot;Gudetama: An Eggcellent Adventure&quot;</strong>. Netflix的治癒小動畫系列。只想躺平的蛋黃哥很適合現代人代入。4.5/5.</li>
+<li><strong>&quot;リズと青い鳥&quot;</strong>. 山田尚子是神。每一個分鏡都很完美的一部影片。在東亞環境成長的人們都不會陌生的主題，青春期的愛與吸引，與其帶來的重量。從束縛到自由，從disjoint到joint。誰是利茲，誰是青鳥？5/5.</li>
+<li><strong>&quot;The birds(1963)&quot;</strong>. 淺看互聯網評論，大概全世界只有我覺得這是一部爛片。說是心靈恐怖類型片，但絲毫沒有恐怖感覺，只覺得無厘頭。受拍攝年代所限，效果粗糙自然是一部分因素，但糟糕的劇情安排和演出也難辭其咎。然後是過於明顯的性別角色在劇情和主題中的體現，女性的角色要麼是貌美如花但不斷作死，要麼是作爲母親、教師、照顧者和犧牲者，而全片唯一男性則充滿陳腐男性氣質。劇中關係發展和修復家庭的過程doesn't make sense at all。有些影片就該被掃進時代的塵土堆。1.5/5.</li>
+</ul>
+<h2 id="遊戲-games">遊戲 Games</h2>
+<p>Steam冬季促銷，購買了兩個低價遊戲。</p>
+<ul>
+<li><strong>Brotato</strong>. 也是Vampire survivor類型遊戲，操作移動+自動攻擊，玩法重點在武器和道具的搭配。相比原版Vampire survivor做了一些重要改動，包括從大地圖敵人不斷湧現變爲分波的攻擊，在敵人包圍中倖存一定時間即可。一波時長在30到90秒，一局共20波，這就保證遊戲時長在半小時左右，不會過於冗長。遊戲角色衆多，且多數涉及較大的玩法改變，加之5種難度選擇，適合反覆遊玩。與其它Roguelike類一樣，每局結果相當程度取決於隨機因素，本人目前還未通關難度4。4.5/5.</li>
+<li><strong>Please, touch the artwork</strong>. 關於現代藝術的解謎類小品遊戲，實際是三個不同的遊戲拼在一起，都是基於蒙德里安的知名作品（紅黃藍的構成，Victory Boogie Woogie，New York City）。美術設計很精緻，但從遊戲性上只有第一部分（紅黃藍的構成）值得稱道。這一部分是在固定步數之內通過添加線條或顏色的操作，創作出指定的畫作，謎題設計多樣，富有足夠挑戰性。另外兩個部分操作比較單一，與其說是玩遊戲更多是觀賞美術。這兩個部分遊戲製作者在美術之外也強行加入了一些俗爛劇情，感覺非常多餘和破壞整體觀感。3/5.</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[月報 Monthly | Dec 2022]]></title>
+        <id>https://sbeam.dev/post/monthly-dec-2022/</id>
+        <link href="https://sbeam.dev/post/monthly-dec-2022/">
+        </link>
+        <updated>2022-12-17T23:53:30.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>12月書影音。今年讀了31本書，平均評分4.2。對博客樣式進行了微小的更新。</p>
+<p>A post about media I consumed in December. The blog frontend is also updated for a better reading experience. The post is in Chinese. Wish everyone a great new year.</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>12月書影音。今年讀了31本書，平均評分4.2。對博客樣式進行了微小的更新。</p>
+<p>A post about media I consumed in December. The blog frontend is also updated for a better reading experience. The post is in Chinese. Wish everyone a great new year.</p>
+<!-- more -->
+<h2 id="書-books">書 Books</h2>
+<p>本月的書只有一本，因爲日文閱讀緩慢，加上要大量上工。我逐漸發現，最佳閱讀時間是在緩慢扭動爬行的列車上，前提是能有座位。</p>
+<p><strong>《夏へのトンネル、さよならの出口》</strong>, by 八目迷, <strong>4/5</strong>。算是輕小說，但是不分卷兩百多頁。夏季在日本上映了該作的改編電影，目前在台灣也有上映，據說評價不錯，因而買來原作。風格類似新海誠，奇幻+青春戀愛，因此可想而知適合改成電影。讀完只能給到4分，一句話評價就是：設定很好，但是寫得有點爛，彷彿五年前寫小說的本人。</p>
+<details>
+  <summary>以下內容含有嚴重劇透和批判作者</summary>
+  先是設定。因早年妹妹死亡導致家庭破裂背負巨大負罪感的男主，因畫漫畫被父母放逐到鄉下不願社交的女主，以時間爲代價“取回失去的東西”的隧道。（找Bug中：如果“失去的東西”是時間本身？ 假裝是作者：在隧道裏體驗完失去的時間，然後出去發現滄海桑田）男主進隧道找妹妹，解決困擾人生的問題，女主牽掛男主，最後來一段跨越時空的高潮演出，最後二人幸終...怎麼說都是有《君の名は》的味，應該也是震撼+感動拉滿的。如果不是有些地方寫爛了的話。
+<p>前半部分男女主bonding的過程寫得挺好，人設比較讓人信服，沒有落入一般青春小說俗套。之後就逐漸開始爛了。首先是一些插入的戀愛茶番，雖然作爲輕小說很該有這種內容，但是寫得讓人尷尬至極，而且和前後context不很協調，就感覺破壞人設和故事氛圍。</p>
+<p>然後是全書血壓最高點。前情提要，男主爲了不妨礙女主追夢成爲漫畫家，單獨進入隧道並給女主留下一封信。女主之前也想進入隧道的理由是“想成爲特別的人”。第一眼，我邏輯清晰：通過畫自己的漫畫不就可以成爲特別的人，何必要進入隧道浪費人生呢？結果，作中這信是這麼寫的：首先說你大好才華不去畫漫畫可惜了，其次，我發現你其實也是“享受着普通的生活的女孩子”，你要不重新考慮一下你的願望。我讀到昏厥，要我是女主，看到這麼爹味惡臭的文字，估計得崩潰。這還沒完，緊接着男主自己在隧道裏一邊跑一邊內心獨白，就是我前述第一眼的邏輯。我的憤怒轉爲迷惑，原來，八目迷你不是不知道。哪怕把兩者內容對換一下，也是一個更合理的寫法，爲什麼最後寫成這樣了啊！</p>
+</details>
+<h2 id="影音-other-stuff">影音 Other stuff</h2>
+<p>首先是本季度必看動畫：</p>
+<p><strong>ぼっち・ざ・ろっく（孤獨搖滾）</strong>。很久沒有傳統番劇能夠激起我的熱情了，不僅原作劇情精彩，動畫的作畫、聲優演出、音樂等都足以封神。雖然仍然是團體番（LL、輕音等類似的音樂主題動畫）的套路，女子高生一起實現閃耀夢想，但是把一個嚴重社恐但是能力超強的角色放在作品中心位置，別出心裁萌點拉滿。角色不多但都富有特色，不是臉譜化的萌，很容易讓人喜愛。音樂是第一遍聽沒什麼感覺，但第二邊之後心潮澎湃，一天之後直接腦內循環。這部也算是針對當代東亞人精神困境，給廣大陰角們打的強心針了。</p>
+<blockquote>
+<p>蒼い惑星　ひとりぼっち</p>
+<p>いっぱいの音を聞いてきた</p>
+<p>回り続けて　幾億年</p>
+<p>一瞬でもいいから…ああ</p>
+<p>聞いて</p>
+<p>聴けよ</p>
+</blockquote>
+<p>再是去看了一場寬街：</p>
+<p><strong>A Strange Loop</strong>. 今年Tony Award受賞作，但一月就終演了，想來是種族+酷兒題材過於小衆，創收不利。劇情主要圍繞黑人酷兒主角Usher嘗試寫作音樂劇展開，表現了其內心的身份衝突、來自家庭和宗教的壓迫、種族和性取向雙重身份帶來的困境等複雜主題。在演出上應該也是做了創新，全劇由主角+6個內心思想(Thoughts 1-6)共7個演員完成，6個內心思想同時飾演其它所有角色，同一演員也會發生飾演角色性別轉換的情況，但大概這也是一種藝術表現的方式。看的時候我是一邊想笑一邊想哭，以下通過劇中歌曲講幾個（全部唱詞可見於<a href="https://www.themusicallyrics.com/s/542-a-strange-loop-the-musical-lyrics.html">此</a>）：</p>
+<ul>
+<li>
+<p>&quot;We Wanna Know&quot;，東亞人大抵都經歷過家長問東問西，名義是在關心，實際在強加自己的Agenda。</p>
+<blockquote>
+<p>Cause after what me and your dad went through<br>
+To send your black booty to NYU<br>
+It appears you just be runnin' around<br>
+Without any direction (x3)</p>
+<p>If that's what you really wanted to do<br>
+Then why don't you just stay here?</p>
+</blockquote>
+</li>
+<li>
+<p>&quot;Inner White Girl&quot;，對我個人來說，也時常感到Inner有個萌萌櫻花妹。</p>
+<blockquote>
+<p>Cool, tall, vulnerable and luscious<br>
+We want to be wild and unwise<br>
+We want to be shy and introspective<br>
+We want to make noise, we wanna mesmerize<br>
+Why can't we be cool, tall, vulnerable and luscious?<br>
+Why can't we express in our own way?<br>
+Why can't we unleash what's locked inside us?<br>
+Who made up these rules black boys must always obey?</p>
+</blockquote>
+</li>
+<li>
+<p>&quot;Memory Song&quot;. 某種意義上，PRC人的集體宗教是政權，升旗、軍訓、政治課這些在記憶中的地位其實類似於西方保守地區人的宗教活動。從很早開始，我就是這樣一個lone person，對老大哥轉身，但與此同時也切斷了舊的社會連結，造成了自我歷史與現實的割裂。</p>
+<blockquote>
+<p>Guilt and shame, Jesus's name<br>
+Church every Sunday<br>
+These are my memories (x2)<br>
+Eat His body, drink His blood<br>
+Communion buffet<br>
+These are my memories<br>
+Sweet, sour memories</p>
+<p>After church we're driving home to radio crackle<br>
+Jazz, muzak or Motown blues and skin is a shackle<br>
+For one lone black gay boy I knew who chose to turn his back on the Lord<br>
+One lone black gay boy I knew who chose to turn his back on the Lord</p>
+<p>These are my memories<br>
+Sweet, sour memories<br>
+This is my history<br>
+This is my mystery</p>
+</blockquote>
+</li>
+<li>
+<p>&quot;A Strange Loop&quot;. 劇尾，過於貼近自己，我大爲震撼。</p>
+<blockquote>
+<p>I am the story's writer<br>
+I'm barely scraping by<br>
+I wake up every morning<br>
+I tell myself to try</p>
+<p>I say, &quot;No compromises&quot;<br>
+I claim to have a plan<br>
+But feel like nothing more than<br>
+An angsty, gay, black man</p>
+<p>Who looks into the mirror<br>
+Despite the grief it brings<br>
+Who hears these sloppy S's<br>
+Betray him as he sings</p>
+<p>Sometimes I feel so ugly<br>
+Sometimes I feel so smart<br>
+Some people stand together<br>
+Meanwhile, I stand apart</p>
+<p>Should I give up on hoping<br>
+My point of view will shift<br>
+And let this agony<br>
+Just be my greatest gift?</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="本站更新-updates">本站更新 Updates</h2>
+<ul>
+<li>略微增大了正文內容寬度。</li>
+<li>將正文部分字型更換爲Serif，並引入<a href="https://sivan.github.io/heti/">Heti</a>改善中文以及中英混排效果。</li>
+<li>加深了正文文字顏色，並更改了backquote引用部分格式，改善對比度便於閱讀。</li>
+</ul>
+<h2 id="總結">總結</h2>
+<p>波瀾的2022年要結束了，新年會繼續每月書影音，並努力嘗試增加一些其它內容。祝看到這裏的朋友們一切安好。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[月報 Monthly | Nov 2022]]></title>
+        <id>https://sbeam.dev/post/monthly-nov-2022/</id>
+        <link href="https://sbeam.dev/post/monthly-nov-2022/">
+        </link>
+        <updated>2022-11-23T12:45:21.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>11月書影音。書評部分會放入一些摘錄，供參考。</p>
+<p>Things I read, watched or listened in November. The post is in Chinese.</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>11月書影音。書評部分會放入一些摘錄，供參考。</p>
+<p>Things I read, watched or listened in November. The post is in Chinese.</p>
+<!-- more -->
+<h2 id="書-books">書 Books</h2>
+<ul>
+<li>
+<p><strong>《帝国日本のプロパガンダ》</strong>, by 貴志俊彦, <strong>2.5/5</strong>. 新書，文庫本大小。顧名思義，敘述了帝國日本時期的民族主義、軍國主義宣傳手段，覆蓋日俄戰爭到中日戰爭到太平洋戰爭的廣大歷史時期，涉及的宣傳手段包括繪畫、照片、新聞、電影等方面。缺點明顯，雖然作爲歷史專業著作確實有必要列出各個歷史人物和機構名、作品名，但是作爲非專業讀者看到的往往是歷史資料的羅列，並不清楚所述的宣傳品到底是怎樣的內容。另一方面就是買來希望可以看到很多圖片，但是實際書中圖片並不多，文庫本的大小限制也嚴重影響了圖片的展示效果。</p>
+</li>
+<li>
+<p><strong>《便利店人間（コンビニ人間）》</strong>, by 村田沙耶香(譯 王華懋), <strong>4.5/5</strong>. 通過一個執意在便利店打工、而不戀愛結婚或從事其它工作的女主，探討社會中何爲”正常“。故事中兩名主要角色，”我“從小難以社會化，通過便利店打工感到自己成爲世界正常運轉的一部分，年紀大後又因不結婚感到社會的偏見；”白羽“經濟拮据，空想創業卻做事懶惰，認識到現代社會仍是依照”強壯男性獲得女性“的遠古模式運轉，便對女性進行辱罵和騷擾。初讀時我將故事理解爲一個無浪漫無性戀者和一個incel的互動，正如<a href="https://sbeam.dev/post/summer-reading/">暑期post</a>裏評過的”Ace“一書講到，雖然此二種羣體截然不同，但無性戀者的困境和incel的極端化是amatonormativity一體兩面的結果。但進一步思考後，我認爲性向的標籤不足以涵蓋”我“這一角色的複雜性，例如其行爲也可以被認爲是ASD譜系的表現。作者想表達的思考也顯然並不僅限於性別方面，而是將便利店具有明確邏輯的行爲準則和（並不僅限於日本）社會的很多（並沒有明確道理的）規訓進行對比，提問究竟怎樣生活，怎樣於社會打交道是”正常“。</p>
+<p>其實書中”我“的困境許多也是本人個人的困境，例如通過模仿別人的表達方式進行社交（在不同的羣體中怎樣表現是”正常“也是不同的）、在現代社會的機械性和穩定性中找到穩定和安心感、對社會上家庭和浪漫相關的快樂感到疏離等等。是很深刻的一本書。</p>
+<p>附上書後作者本人（同樣在便利店打工多年）寫給便利店的情書。</p>
+<blockquote>
+<p>便利店先生：</p>
+<p>與你相識，已經十七年，這是我第一次提筆寫信給你。</p>
+<p>認識你時，我才十八歲。對當時的我來說，你是個令人敬畏的對象。在我眼中，你屬於大人的世界，像我這樣的菜鳥，總是犯錯連連，幾次就差點失去留在你身邊的資格。每次見到你，我總是緊張萬分，口袋裡裝了小筆記本，每每留意到你細微的動作和習慣，便鉅細靡遺地記錄下來。</p>
+<p>這樣的找們到底是從何時成為一對的？我想，你和我可能都難以說清楚吧。若勉強要說的話，或許是第一次與你共度深夜兩點的那個夜晚。當時其他人臨時不能來顧店，我又推辭不掉，便與你待到了半夜：我平常都是在白天或傍晚才見到你，第一次在你體内遂受到帶著夏夜氣味的空氣流入時，不禁怦然不已。</p>
+<p>臨去之際，我忽然想看看你困窘的表情，而想對你這麼說：「你覺得便利店跟人可以做愛嗎？」我期待你會臉紅，或是不知所措，卻沒料到你滿不在乎地回應道：「妳在說什麼啊？我們不是已經結合了嗎？妳每天都進入我當中。」</p>
+<p>我認為，當你一本正經地這麼說的那一刻，我們便成了一對情侶。</p>
+<p>後來，我開始抱著約會而非上班的心情，精心打扮去見你；而你也將雜誌區和店內的鏡子清理得光可鑑人，有點裝模作樣地迎接我。</p>
+<p>仔細想想，照你所說的道理來看，你等於也是每天在跟大夜班的大叔！店長夫婦，還有上百名的顧客做愛，然而你卻理所當然地說：「咦？我只跟妳做過啊。」所以在你心中，我或許是有某些不同吧。</p>
+<p>大概是在認識你三午左右的某一天，突然有人告訴我，說你一個月以後就要死了。我啞然失聲，囚為我從來沒有想過，便利店居然三年就會死掉。</p>
+<p>但，你真的死了。你去世的前兩天，體內的東西全部以半價出售，被眾多人潮搶購一空。而我目睹著這一幕，以為即將與你天人永隔。</p>
+<p>因此，當店長告訴我，你將在距離原本活著的地點約十五分鐘自行車車程的地方脫胎重生時，我驚訝極了，這是我第一次與便利店交往，從來都不知道原來便利店會像這樣不斷地死而復生。</p>
+<p>重生的你和我，又再次墜入愛河。後來經歷了許多事，像是找和家庭餐廳的花心、你又再度死去。在你第三次死去的時候，我也已經習慣了。我們經歷一次次的離別與重逢，十七年過去的現在，我仍廝守在你身邊。</p>
+<p>身邊的人都說：「妳幹嘛不跟人交往，而跑去跟什麼便利店交往？」「交往這麼久，不膩嗎？」也有人說：「反正妳也不是真心愛什麼便利店，只是為了小說題材才交往的吧？」我早已習慣這些閒言閒語，也不以為意。不過，之前約會的時候，我半帶玩笑地把這些話告訴你，你聽了好像有些傷心。我說：「對不起，真不該跟你說這些的，我去宰了那些人好不好？」這話雖是說笑，卻也是認真的！你正經八百地回答：「不可以隨便殺人，人跟我不一樣，就算死掉也不會復活。」</p>
+<p>這麼說來，你難得像這樣將感情表露在臉上呢。有時就算我說笑，你也不太捧場。，即使我突然依偎在你身上，想要親密接觸，你也從不臉紅心跳，而是一派雲淡風輕。但我依然覺得，即使不需要言傳，你也明白我為什麼喜歡你。</p>
+<p>然而，當上一次我們為了要不要分手，重複著超過一百次以上的爭論時，居然連你也說了：「我實在搞不懂為什麼妳要跟我在一起。」我震驚極了，我希望你能明白我的心意，因此，才提筆寫這封信給你。</p>
+<p>我喜歡你的地方實在太多太多，即使寫上一百張稿纸都不夠，所以我簡潔地只列出最重要的理由。</p>
+<p>我之所以愛上你，最大的理由，是因為你讓我變成了一個「人」</p>
+<p>大家都說你不是人，但是認識你之前的找，其實也稱不上是個人。簡單的說，我不善於扮演「人」這個角色。唯有待在你身邊，我才能夠是個人。</p>
+<p>你給了我早晨，白天，夜晚的時間區分，給了我一雙漫步「現實」世界的神奇鞋子。對我來說，你就像個魔法師，如果沒有你，我甚至無法感受到世界有「早晨」這樣的時光。</p>
+<p>你是我人生當中，唯一堅若磐石的「正常」，所以我身為人的感情，全部都是屬於你的。</p>
+<p>吐露這麼沉重的情感，搞不好會害得我們真的分手。因為愛情把我變成了「人」這種怪物，而你卻依然故我，永遠都是便利店。我過度膨脹的愛情，對你來說或許太沉重了。</p>
+<p>如果失去你，我會變得如何？如果沒有你，或許我又會忘了自己是個人，居然變得如此依賴你，也令我心生恐懼。</p>
+<p>不過，再一下就好，請讓我待在你的身邊，你各處年久失修， 一早就叮咚叮咚，吵得要命。你說：「我是建築物， ，不肯移動，所以約會地點老是一成不變；招待我的「拿手好菜」總是加了一堆添加物；還說：「妳看妳看！我有了新玩意！」突然就擺出咖啡機，把人忙得團團轉。，更重要的是，你讓大夜班的大叔跟店長那些人在你的身體裡面自由穿梭，實在讓人懷疑你是不是很花心。</p>
+<p>這些數不清的缺點雖然教人耿耿於懷，不過，就連這些缺點，在我眼中也覺得魅力十足呢。看來我真的被愛情沖昏了頭。所以，在我的相思病痊癒之前，你有義務留在我身邊。</p>
+<p>明天早上，我又要去見你了。最近忍不住出於怠惰，約會老是穿牛仔褲；不過，明天我會穿上，買的洋裝，所以請你也要掃乾淨營業用冰箱，好好打扮一番等我喔！</p>
+<p>這麼說來，我們還不曾接吻呢，我想，明天將會是值得紀念的一天。</p>
+</blockquote>
+</li>
+<li>
+<p><strong>&quot;Strangers to Ourselves : Unsettled Minds and the Stories That Make Us&quot;</strong>, by Rachel Aviv, <strong>5/5</strong>. 新書。全書圍繞精神疾病、治療它們的兩種思潮（精神分析和藥物）以及它們與社會環境的複雜關係展開。內容由四個人加上作者自己的故事組成，下逐一介紹。Ray事業和家庭遭遇失敗出現抑鬱症狀入住以精神分析聞名的醫院Lodge，卻沒有改善，其後以精神醫學手段改善並訴訟Lodge，引發兩種思潮的大爭論；Bapu在印度傳統家庭中作爲女性感到壓抑，幻想自己與宗教神靈結婚，沉溺於修行，被診斷爲精神分裂強迫治療；Naomi面對黑人女性在美國遭受的種族主義，帶着兩個孩子投河自殺，在監獄和醫院中艱難恢復；Laura家境富裕入學哈佛，卻感到人生虛無，因此被診斷精神疾病服用大量精神藥品，其後從事幫助他人戒斷精神藥品的工作。</p>
+<p>從這些悲劇的例子中，並不能爲兩種思潮定出優劣，Ray和Naomi的精神疾病沒有得到充分的醫學照護，Bapu和Laura則可能遭受了不恰當的醫學干預。但這些例子有一共同點，精神疾病的發生，以及對其的診斷和理解，脫不開社會的規範和其中可能的偏見。Ray對自己失敗的執念來源於白人男性對“成功”的狹窄認識；Bapu的診斷和治療體現出西方醫學框架對印度宗教傳統的異化，其親戚的態度也反映了印度傳統女性受到的壓迫；Naomi則受困於美國精神醫學界對少數族裔遭遇缺乏認識；Laura被包裹在上流社會對完美女性的期待之中。</p>
+<p>除了社會背景，本書將相當筆墨放在個人於精神疾病的複雜鬥爭歷程上，並傳遞一個想法：病理的診斷定性會成爲一個人的身份，個人生命故事的核心，不僅決定別人如何看待病人，也決定了病人如何理解自己。被下診斷後，就會用相應的症狀看待自己的想法和行爲，而長期服用藥物後，更是不知道自己本身的性格究竟如何。因此診斷常常將患者與正常世界割裂開，不利於其好轉和融入社會。</p>
+<p>寫作周到，富有震撼力，能夠帶來對精神疾病和人類精神世界的嶄新認識。值得5分。</p>
+<p>附結尾關於康復的一段，和拙譯。</p>
+<blockquote>
+<p>In an essay on the nature of recovery, the psychologist Pat Deegan, who was diagnosed with schizophrenia when she was seventeen, criticized the messaging of a popular advertising campaign for antidepressants. In an ad that circulated in the late nineties, a smiling girl races up the stairs to greet her mother. “I got my Mommy back,” reads a note in crayon. Deegan challenges the idea that, after the disruption of mental illness, people can slip back into their former identities. “For those of us who have struggled for years, the restitution storyline does not hold true,” she writes. In another essay, comparing herself to a friend who was paralyzed from the neck down, Deegan writes, “Recovery does not refer to an end product or result. It does not mean that the paralyzed man and I were ‘cured.’ In fact, our recovery is marked by an ever-deepening acceptance of our limitations.” She proposes that “transformation rather than restoration becomes our path.”<br>
+Deegan acknowledges that some phases of recovery require planning and work, but not every part of the process can be consciously orchestrated. “All of the polemic and technology of psychiatry, psychology, social work, and science cannot account for this phenomenon of hope,” she writes. “But those of us who have recovered know that this grace is real. We lived it. It is our shared secret.”</p>
+<p>在17歲時被診斷出患有精神分裂症的心理學家帕特-迪根在一篇關於康復本質的文章中，批評了一個流行的抗抑鬱藥廣告傳遞的信息。在這個90年代末流傳的廣告中，一個微笑的女孩跑上樓梯迎接她的母親。 &quot;我的媽媽回來了&quot;用蠟筆寫的廣告語說。迪根質疑在精神疾病的干擾之後，人們可以重新回到以前的身份。 她寫道：&quot;對於我們這些掙扎了多年的人來說，恢復原狀的故事情節是不成立的。“在另一篇文章中，迪根將自己與一位頸部以下癱瘓的朋友相比較，她寫道：&quot;康復並不是指一種最終產物或結果。它並不意味著那個癱瘓的人，和我，被'治愈'了。事實上，我們的康復是以不斷深入地接受我們的局限性為標誌的&quot;。她提出，&quot;我們的道路是轉變而不是恢復&quot;。<br>
+迪根承認，康復的某些階段需要計劃和努力，但並不是這個過程的每一部分都可以被有意識地安排好。 她寫道：&quot;精神病學、心理學、社會工作和科學的所有論證和技術都無法解釋這種被稱作希望的現象。但是我們這些已經康復的人知道，這種恩典是真實的。我們經歷了它。它是我們共同的秘密&quot;。</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="影片-videos">影片 Videos</h2>
+<ul>
+<li><strong>映画「ゆるキャン」</strong>. 有效填補當代日本人精神缺口的一作。雖然主角團大家都成爲了社畜，生活各有各的難，但是憑藉熱愛可以撼動官僚系統，創造快樂和人際連結，並且爲地方振興做貢獻。原作的主要元素一點都沒落下，也有很多彩蛋致敬，適合原作廚觀看。</li>
+<li><strong>”She said“</strong>. 含Trigger，不評，有相關trauma經歷的謹慎觀看。</li>
+</ul>
+<h2 id="遊戲-games">遊戲 Games</h2>
+<p>目前的精力狀況只夠偶爾體驗一些休閒遊戲。買了如下兩個，遊玩時間都不長。</p>
+<ul>
+<li><strong>&quot;Dinkum&quot;</strong>，大概是動森和星露谷的混合體？設定是在澳洲無人島上生存建設，玩法比較多樣，撿垃圾釣魚種地砍樹挖礦造房子應有盡有。但是捏人真的很丑。再就是不像動森那樣熱門，缺人一起玩。</li>
+<li><strong>&quot;Kena: bridge of spirits&quot;</strong>，3D動作冒險，畫風奧日，戰鬥魂系。逛地圖抓腐靈十分輕鬆，Boss兩刀將我砍死使我叫苦不迭。秋促半價，我血虧。</li>
+</ul>
+<h2 id="總結">總結</h2>
+<p>想做普通人，想愛與被愛！</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Myth of "Overfitting to noise"]]></title>
+        <id>https://sbeam.dev/post/the-myth-of-overfitting-to-noise/</id>
+        <link href="https://sbeam.dev/post/the-myth-of-overfitting-to-noise/">
+        </link>
+        <updated>2022-11-14T20:25:09.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>This post serves as a study note on the topic of &quot;overfitting&quot; in machine learning. It would also help to clarify some common misunderstandings on this topic. Although &quot;overfitting to noise&quot; is common, it's not the root cause of the lack of generalization in overly complex models.</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>This post serves as a study note on the topic of &quot;overfitting&quot; in machine learning. It would also help to clarify some common misunderstandings on this topic. Although &quot;overfitting to noise&quot; is common, it's not the root cause of the lack of generalization in overly complex models.</p>
+<!-- more -->
+<h2 id="review-a-classic-example">Review: a classic example</h2>
+<p>In most introductory materials of machine learning, the issue of &quot;overfitting&quot; is illustrated  using something similar to the graph below. Here the data was generated from a smooth function, with some random noises added to it. A polynomial regression model was used to fit the data. When the order of the polynomial was set too high(30 in the figure), the model tried to fit the noise and failed to generalize. Although the error was low on the training data, it can't predict well for new points generated from this curve. Bad.</p>
+<img src="https://s2.loli.net/2022/11/16/LQUHKPgRYeXw7Cr.png" alt="overfit_noise.png" style="zoom:67%;" />
+<p>Noisy data is everywhere, especially in regression tasks, due to measurement error. For classification tasks, it's possible due to mislabeling and ambiguous samples(Think about an image with both a cat and a dog in it. Its label can be both &quot;cat&quot; and &quot;dog&quot;!).</p>
+<p>According to the classic materials, this is why regularization and cross validation are needed.</p>
+<h2 id="this-is-not-the-whole-story">This is not the whole story</h2>
+<p>Ok, so suppose we now have a clean training dataset. We can have each sample carefully checked and we are sure that the labels are correct(Think about benchmark datasets like MNIST). Then we don't need to worry about regularization because there is no noise, right? Actually no. If we train a complex neural network model on it, for many epochs, it is likely to still fail on testing data.</p>
+<p>Back to a synthetic regression example. The data was still generated from a smooth function, with no added noise. The graph below shows the fit for a high order polynomial(order is 40) model. Still pretty bad.</p>
+<img src="https://s2.loli.net/2022/11/16/zXk2sCcQf4blaKE.png" alt="overfit_wo_noise.png" style="zoom:67%;" />
+<h2 id="why-a-simple-explanation">Why? A simple explanation</h2>
+<p>Suppose the model has <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi></mrow><annotation encoding="application/x-tex">m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">m</span></span></span></span> parameters and the training data size is <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>. <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi mathvariant="script">F</mi><mi>m</mi></msub></mrow><annotation encoding="application/x-tex">\mathcal{F}_m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> is the hypothesis space, which means the set of all possible models. In the above example, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="script">F</mi></mrow><annotation encoding="application/x-tex">\mathcal{F}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span></span></span></span> contains all polynomials of the given order(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>m</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">m-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">m</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>, to be exact). Denote the parameters for the best solution in the hypothesis space <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>θ</mi><mo>⋆</mo></msup><mo>=</mo><msub><mrow><mi mathvariant="normal">a</mi><mi mathvariant="normal">r</mi><mi mathvariant="normal">g</mi><mi mathvariant="normal">m</mi><mi mathvariant="normal">i</mi><mi mathvariant="normal">n</mi></mrow><mi>θ</mi></msub><mi>R</mi><mo>(</mo><mi>θ</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">\theta^\star=\mathrm{argmin}_\theta R(\theta)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.688696em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">⋆</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord"><span class="mord mathrm">a</span><span class="mord mathrm">r</span><span class="mord mathrm" style="margin-right:0.01389em;">g</span><span class="mord mathrm">m</span><span class="mord mathrm">i</span><span class="mord mathrm">n</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.24196799999999993em;"><span style="top:-2.4558600000000004em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.24414em;"><span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mopen">(</span><span class="mord mathdefault" style="margin-right:0.02778em;">θ</span><span class="mclose">)</span></span></span></span>, where <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>R</mi><mo>(</mo><mo>)</mo></mrow><annotation encoding="application/x-tex">R()</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.00773em;">R</span><span class="mopen">(</span><span class="mclose">)</span></span></span></span> is the risk function(expectation of the loss function). The generalization error on a testing sample can be formulated as follows:</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>f</mi><mover accent="true"><mi>θ</mi><mo>^</mo></mover></msub><mo>−</mo><msup><mi>f</mi><mo>∗</mo></msup><mo>=</mo><mo>(</mo><msub><mi>f</mi><mover accent="true"><mi>θ</mi><mo>^</mo></mover></msub><mo>−</mo><msub><mi>f</mi><msup><mi>θ</mi><mo>∗</mo></msup></msub><mo>)</mo><mo>+</mo><mo>(</mo><msub><mi>f</mi><msup><mi>θ</mi><mo>∗</mo></msup></msub><mo>−</mo><msup><mi>f</mi><mo>∗</mo></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">f_{\hat{\theta}}-f^*=(f_{\hat{\theta}}-f_{\theta^*})+(f_{\theta^*}-f^*)
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0201559999999998em;vertical-align:-0.3257159999999999em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3742840000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span></span></span><span style="top:-2.9634400000000003em;"><span class="pstrut" style="height:2.7em;"></span><span class="accent-body" style="left:-0.16666em;"><span class="mtight">^</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3257159999999999em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.933136em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.738696em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.075716em;vertical-align:-0.3257159999999999em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3742840000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span></span></span><span style="top:-2.9634400000000003em;"><span class="pstrut" style="height:2.7em;"></span><span class="accent-body" style="left:-0.16666em;"><span class="mtight">^</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3257159999999999em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6183428571428571em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6183428571428571em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.738696em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">∗</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span></p>
+<p>where <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>f</mi><mover accent="true"><mi>θ</mi><mo>^</mo></mover></msub></mrow><annotation encoding="application/x-tex">f_{\hat\theta}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0201559999999998em;vertical-align:-0.3257159999999999em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3448em;"><span style="top:-2.3742840000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord accent mtight"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9578799999999998em;"><span style="top:-2.7em;"><span class="pstrut" style="height:2.7em;"></span><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span></span><span style="top:-2.9634400000000003em;"><span class="pstrut" style="height:2.7em;"></span><span class="accent-body" style="left:-0.16666em;"><span class="mtight">^</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3257159999999999em;"><span></span></span></span></span></span></span></span></span></span> is the trained model, <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>f</mi><mo>⋆</mo></msup></mrow><annotation encoding="application/x-tex">f^\star</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.688696em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mbin mtight">⋆</span></span></span></span></span></span></span></span></span></span></span> is the ground truth, and <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>f</mi><msup><mi>θ</mi><mo>⋆</mo></msup></msub></mrow><annotation encoding="application/x-tex">f_{\theta^\star}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.10764em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.02778em;">θ</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6183428571428571em;"><span style="top:-2.786em;margin-right:0.07142857142857144em;"><span class="pstrut" style="height:2.5em;"></span><span class="sizing reset-size3 size1 mtight"><span class="mbin mtight">⋆</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span> is the best model in <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi mathvariant="script">F</mi><mi>m</mi></msub></mrow><annotation encoding="application/x-tex">\mathcal{F}_m</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord"><span class="mord mathcal" style="margin-right:0.09931em;">F</span></span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.151392em;"><span style="top:-2.5500000000000003em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">m</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>.</p>
+<p>We call the first part &quot;approximation error&quot;. This part is not related to the training set. It only depends on the hypothesis space. Generally, if the hypothesis space is larger, this term gets smaller. For example, if we include higher order polynomials in the hypothesis space, we can get closer to the ground truth using the best possible model.</p>
+<p>We call the second part &quot;estimation error&quot;. We have this term because we can't get the best possible model in the hypothesis space using finite training samples, even when the data is completely clean. In the example above, there are many potential high order polynomials that can fit (almost) perfectly to the data. Among all these solutions, some are better for generalization, and some are worse. For a large hypothesis space(complex models), there can be many bad solutions, so it's almost sure that the &quot;estimation error&quot; will be large. Here we have &quot;overfitting&quot; again, and regularization can help reduce it.</p>
+<h2 id="it-can-get-complicated">It can get complicated</h2>
+<p>In this <a href="https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote12.html">link</a>, the expected test error under squared loss are separated into bias, variance and noise. The &quot;approximation error&quot; above is bias, and the &quot;estimation error&quot; includes both variance and noise. It's clear from the decomposition that the root cause of overfitting is the variance term.</p>
+<p>For modern model structures such as neural networks, it can get more complicated. In this <a href="https://arxiv.org/pdf/2003.01054.pdf">paper</a>, the test error are decomposed to &quot;bias&quot;, &quot;noise variance&quot;, &quot;initialization variance&quot;, and &quot;sampling variance&quot;. Roughly speaking, the &quot;variance&quot; part in the above decomposition was again separated according to their causes: &quot;initialization&quot; and &quot;sampling&quot;.</p>
+<p>Also, from the above research, the generalization error curve may not be the classic U-shaped curve. As the parameter size increases, the test error may decrease again. It's called &quot;Double descent&quot;. There might even be &quot;triple descent&quot;s(<a href="https://proceedings.neurips.cc/paper/2020/hash/1fd09c5f59a8ff35d499c0ee25a1d47e-Abstract.html">link</a>).</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Now we have looked briefly into the issue of &quot;overfitting&quot;. The classic explanation of &quot;overfitting to noise&quot; is over-simplified. The root cause of &quot;overfitting&quot; can be seen as the lack of ability to choose the best model using finite training data.</p>
+<p>This post is heavily based on lecture notes from one of my undergraduate courses.</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[月報 Monthly | Oct 2022]]></title>
+        <id>https://sbeam.dev/post/monthly-oct-2022/</id>
+        <link href="https://sbeam.dev/post/monthly-oct-2022/">
+        </link>
+        <updated>2022-10-23T20:01:43.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>10月書影音。看的東西不多，但許多都想詳細寫寫。</p>
+<p>Things I read, watched or listened in October. The post is in Chinese.</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>10月書影音。看的東西不多，但許多都想詳細寫寫。</p>
+<p>Things I read, watched or listened in October. The post is in Chinese.</p>
+<!-- more -->
+<h2 id="書-books">書 Books</h2>
+<ul>
+<li>
+<p><strong>&quot;When McKinsey Comes to Town&quot;</strong>, by Walt Bogdanich, Michael Forsythe. <strong>NA/5</strong>. 這個月剛出版的新書，作者是紐約時報的人，總集了諮詢公司麥肯錫的各種醜惡行爲，包括過度的削減支出不顧安全與勞工權益、同時服務於企業於其監管部門存在利益衝突、爲中國政府相關機構提供諮詢服務、爲鴉片菸草煤炭等造成社會危害的企業提供服務等。聽的有聲書，聽了兩章後因覺得寡味而放棄，因所述內容過於負面亦不利於入眠。我固然知道資本主義壞，而麥肯錫作爲傳統商界大企業的代表自然是壞得厲害，但如何將壞事講得清晰講得有影響力也是一門功夫。作者可能因是媒體從業人員，有些論述顯得牽強附會，邏輯也不很順暢。對於想要詳細了解具體事件的人，大概還是值得一讀的。</p>
+</li>
+<li>
+<p><strong>《独り舞》</strong>, by 李琴峰, <strong>5/5</strong>。文庫本大小。之前寫過的《彼岸花盛開之島》作者的出道作。在書店因爲作者名字拿起來看，前幾個字就把我當場震住了，請容許我在此引用並拙作翻譯。</p>
+<blockquote>
+<p>死ぬ。</p>
+<p>死ぬこと。</p>
+<p>高層オフィスビルの二十三階で、ガラス張りの壁越しに色鮮やかなネオンライトが点滅する街を俯瞰しながら、彼女はこの言葉を何度も玩味した。</p>
+<p>良い響きだ。風の囁きよりも優しく、夢の絨毯よりも柔らかい。</p>
+<p>死に対して格別強い憧れは抱いていないが、生に対してもそれほど執着は無い。生きているうちはできる限り上手く生きようとするけれど、生の辛さが我慢できる範疇を超えてしまったら、彼女は何の躊躇もなく死を選ぶだろう。</p>
+<p>譯：</p>
+<p>死去。</p>
+<p>死亡這件事。</p>
+<p>在高層辦公樓的23層，她俯瞰着玻璃幕牆外閃爍的色彩鮮亮的霓虹燈，把這個詞玩味了無數次。</p>
+<p>是很好的聲音呢。比風的細語要更溫柔，比夢的絨毯要更柔軟。</p>
+<p>對於死亡她沒有抱有特別強的憧憬，但對於活着也沒有多大的執着。雖然在活着的時候要盡量活得好一些，但如果生活的苦痛超過了可以忍受的範疇，她大概會沒有任何躊躇地選擇死亡吧。</p>
+</blockquote>
+</li>
+</ul>
+<p>​	可以從中一窺本書的文字風格。李琴峰是臺灣作家，故書中多用漢字詞、臺灣文學與中國古典文學典故，在現代日語中頗爲獨特。書的情節與感情基調，可以用書封上村田沙耶香（待讀列表中 《便利店人間》的作者）的評論總結：“痛み”。主人公是從臺灣移居日本的女同性戀者（與作者本人經歷相同），其背景故事涉及性暴力、恐同、創傷後精神障礙等內容。移居日本後主人公雖然變更名字，展開新的生活，但仍感到不被接納並遭受惡意，“死亡”這一主題貫穿全書。但本書並未停滯於對痛苦的描述，在尾聲部分作者將宏大視角與細微描寫相組合，寫了一段幾乎奇幻的展開，並以對生的強烈希望作結。個人認爲不僅體現了作家深厚的功底，也讓我產生精神的共鳴。</p>
+<h2 id="影片-videos">影片 Videos</h2>
+<ul>
+<li><strong>&quot;四畳半神話大系&quot;</strong>. 先看的時光機藍調（見上期月報）再看的本篇。對比來看新的時光機劇集還是少了些靈魂。畫風特別喜歡，與京都的古典風格和劇情設定很匹配，對實景鏡頭的使用也很渲染氛圍感。我認爲劇情表面上是命運注定的愛情，實際是對社會現實深刻而令人發笑的諷刺戲。吹捧着發揚興趣、和諧人際交往的大學社團，其實包含着許多陰暗面；通過個人努力走向“人生巔峯”的優績主義敘事，在命運的必然面前被擊得粉碎。或許“師傅”的超然，正是因爲看到了這些吧。</li>
+<li><strong>&quot;Bee and Puppycat&quot;</strong>. 網飛劇集，心情低落時的良藥。原作是在Youtube的短篇，網飛進行了重製。有看過原作的人對改編有一些意見，例如前幾集過於濃縮，以及主人公Bee爲迎合主流審美體型被縮小。但瑕不掩瑜，劇的整體氛圍非常放鬆舒適，世界都是pastel color的，人物之間的互動也非常wholesome。最後一些重要設定得到揭露，但仍有許多關於世界觀的謎題沒有解明，期待有續作。誰不想有一隻可以變出錢的貓貓呢？</li>
+<li><strong>&quot;Before i change my mind&quot;</strong>. 去現場看的首映。主人公是一個性別未知也從外表難以分辨的少年，劇情設定在80年代，圍繞主人公Robin和班上的bully Carter從衝突到友誼再到衝突的互動。影片的場景、視覺效果和配樂都很好地營造了80年代的感覺，如同蒸汽波般給人一種虛幻的懷念。情節構造也不錯，能調動觀衆的情感。對於結局（Carter因戀愛對象被Robin奪去，發生激烈衝突，隨後Robin燒毀Carter的樹屋），同去的電影專業同學持保留態度，認爲主角的心理進程從“腐壞”到“救贖”最後又以“腐壞”作結，似乎是故意與傳統的成長故事標新立異。我個人認爲結局比較符合我的設想，因爲在劇中社會，主人公被打受傷施暴者都沒有遭受任何懲罰，當Carter一再欺侮TA，並要求其“fight back”時，主人公的行爲合情合理，燒掉的不只是木頭，而是長期忍讓的自己，是具有象徵意義的。</li>
+</ul>
+<h2 id="播客-podcasts">播客 Podcasts</h2>
+<ul>
+<li><strong><a href="https://www.nytimes.com/2022/10/04/opinion/ezra-klein-podcast-rachel-aviv.html?">When You Can’t Trust the Stories Your Mind Is Telling</a></strong>. 來自The Ezra Klein Show。關於對心理疾病的複雜認識，很有衝擊力的一集。尤其是關於如種族主義等社會問題、以及宗教幻想這部分，使我大受震撼。內容大概來自“<a href="https://us.macmillan.com/books/9780374600846/strangerstoourselves">Strangers to Ourselves: Unsettled Minds and the Stories That Make Us</a>&quot;一書，已加入待讀列表。</li>
+</ul>
+<h2 id="總結">總結</h2>
+<p>最近因爲很多事情，不得不靠一些distraction來維持自己正常運轉。能沉得下心看書的時間越來越少了，但看一點、寫一點總比完全不做強。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[月報 Monthly | Aug-Sep 2022]]></title>
+        <id>https://sbeam.dev/post/monthly-aug-sep-2022/</id>
+        <link href="https://sbeam.dev/post/monthly-aug-sep-2022/">
+        </link>
+        <updated>2022-09-23T11:25:18.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>8-9書影音雙月報。因爲內容不足加入了新的版塊。</p>
+<p>Things I read, watched or listened in August and September. New sections are added. The post is in Chinese.</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>8-9書影音雙月報。因爲內容不足加入了新的版塊。</p>
+<p>Things I read, watched or listened in August and September. New sections are added. The post is in Chinese.</p>
+<!-- more -->
+<h2 id="書-books">書 Books</h2>
+<ul>
+<li><strong>The Galaxy, and the Ground Within</strong>, by Becky Chambers. <strong>5/5</strong>. 前兩篇博文中都有出現過的作者，這次是一部長篇作品，雖說是Wayfarers系列的第四部，但劇情獨立，可以單獨閱讀。體裁算是經典space opera，但還是具有該作者的獨特風格。故事設定是幾個正在星際旅行的外星人因事故滯留在一個星球上的中轉休息站，不得不開始互相交流（書評有人說道這觸發了其在Covid大流行期間被隔離的創傷記憶，還請注意）。敘事的重點不在於廣袤太空的紛繁勢力，堅船利炮，而是對通過角色間互動，對每個主要角色的個人背景、所處文化，處事方式逐漸進行揭露。每個人在其中都抱着best intention行事，故事的結局也是溫暖與振奮人心的。</li>
+<li><strong>《N/A》</strong>, by 年森瑛。<strong>4.5/5</strong>。芥川賞候補，非常現實而沉重的小說。文庫本大小。主題是社會對人的標籤化與“定型”，涉及性別刻板印象、親密正規化(Amatonormativity)、對LGBT羣體的過度異化、社會規訓對人際間善意表達的影響等等。結尾對主要角色其一描寫的反向轉變，我認爲寫法有些值得商榷。</li>
+<li><strong>Changing Planes</strong>, by Ursula K. Le Guin, <strong>4/5</strong>. 通過Audiobook聽讀。科幻短篇集，每節講述一個“位面”的故事。用當代的說法，就是穿越很多異世界，描述其中的自然與社會情況，以及自己（人類）於其中的遭遇。拋掉部分比較驚悚的章節，作爲睡前故事相當不錯。缺點也較明顯，作者對其它“位面”的人類學想象，都逃不開以西方社會作爲基礎，從性別分工、政府組織到文化風俗。從當代的視角看，便覺得相當狹隘了。</li>
+<li><strong>《英語で味わう万葉集》</strong>, by Peter Macmillan, <strong>4.5/5</strong>. 文庫本大小。在日本長期居住的愛爾蘭學者寫作的一本介紹萬葉集的書。該書選取一些比較有代表性的和歌，展示原文、現代日文譯文、作者翻譯的英文譯文、以及解說。萬葉集作爲最爲古老的和歌集，就連翻譯成現代日文也不是容易的事情，若要譯爲英文可想而知難度很高。作者之前也出版過《百人一首》之類和歌的英文版本，經驗豐富，據我來看譯的算是相當不錯了。我對古日語幾乎一竅不通，但對照多個文本也基本上能夠欣賞到和歌中的情感氛圍。</li>
+</ul>
+<h2 id="影片-videos">影片 Videos</h2>
+<ul>
+<li><strong>&quot;四畳半タイムマシンブルース&quot;</strong>(<a href="https://www.disneyplus.com/ja-jp/series/the-tatami-time-machine-blues/6C7HChDy39QZ">Disney+</a>). 新作動畫，之前不知道這個系列，純粹因爲畫風有趣開始看的。目前只更新了兩集，感覺質量還可以，主人公的內心獨白超級真實。</li>
+</ul>
+<h2 id="遊戲-games">遊戲 Games</h2>
+<p>也算是廣義“媒體”。</p>
+<ul>
+<li><strong>&quot;Two Point Campus&quot;</strong>. 類型：模擬經營、獨立。剛玩覺得挺無厘頭的設定，到美國上了學感覺倒是挺真實的。學校的本質就是：讓學生多少有點東西可以學，加上舉辦充分多活動佔用學生的時間讓其樂不思蜀，然後瘋狂擴招，賺錢買樓。</li>
+<li><strong>&quot;Holocure&quot;</strong>. 類型：獨立、同人、Roguelike。衆多Vampire Survivors同類遊戲其一。就算不追Hololive，遊戲的角色設計、技能設計和整體的打擊感都屬於佼佼者。</li>
+</ul>
+<h2 id="音樂-music">音樂 Music</h2>
+<p>分享一些歌單。</p>
+<ul>
+<li><a href="https://open.spotify.com/playlist/1B3YwmonkwdPKwp2yZWD5G?si=199564f84204471e">從小聽到大的J-POP歌單</a>（自製）。選曲來自Bilibili，原鏈接在Playlist描述中。這個UP主的選曲至少聽了有7年了，已經刻進大腦。</li>
+<li><a href="https://open.spotify.com/playlist/37i9dQZF1DXdY5tVYFPWb2?si=e7038877e7bc4d23">City Pop</a>。日本Spotify的氛圍歌單一般都還不錯，推推。</li>
+</ul>
+<h2 id="總結">總結</h2>
+<p>上學，加上一個人生活，太耗費精力了。現在手頭想讀的書，還包括好幾本日文非文庫本，真不知道何時才能看完。放寬心，生活首先是睡覺。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[暑期書影音記錄 Summer reading/media consumption]]></title>
+        <id>https://sbeam.dev/post/summer-reading/</id>
+        <link href="https://sbeam.dev/post/summer-reading/">
+        </link>
+        <updated>2022-08-07T12:21:14.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>這個夏天逢全球性酷暑，住地受熱浪影響尤甚，於是只能閉門不出。因此違了上一篇博文中說的要“少讀些，慢慢讀”的打算，大量消費各類媒介。</p>
+<p>Due to extreme heat all around the globe, I spent almost all of the summer indoors. So I read too much books, and consumed a lot of other media in the two months. The post is mostly in Chinese.</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="tldr">TL;DR</h2>
+<p>這個夏天逢全球性酷暑，住地受熱浪影響尤甚，於是只能閉門不出。因此違了上一篇博文中說的要“少讀些，慢慢讀”的打算，大量消費各類媒介。</p>
+<p>Due to extreme heat all around the globe, I spent almost all of the summer indoors. So I read too much books, and consumed a lot of other media in the two months. The post is mostly in Chinese.</p>
+<!-- more -->
+<h2 id="書-books">書 Books</h2>
+<ul>
+<li><strong>《他們說我是間諜：人類學家與她的祕密警察監控檔案》</strong>,  by Katherine Verdery,  梁永安 (Translator)。譯自&quot;My Life as a Spy: Investigations in a Secret Police File&quot;，<strong>4/5</strong>。半回憶錄，半學術作品。身爲人類學家的作者回顧自己在冷戰時期的羅馬尼亞從事田野調查的經歷，並與解禁的來自國安局的自身檔案對照，探究祕密警察如何影響自己和自己的研究，並探討自己事後對祕密警察、線人等各方的看法。瞭解羅馬尼亞當時的情況，尤其是關於祕密警察對“間諜”的模糊界定、祕密警察對線人施加的“暴力和恐懼”以外的壓力等等，對理解當今社會仍有借鑑意義。作者剖析自己社會關係的勇氣和洞見值得尊敬。當然，由於其自身的社會關係，包括與線人和前祕密警察的關係，其在接近結尾部分的評價和反思上有所缺憾。中文版本有些許翻譯錯誤，不影響整體閱讀。</li>
+<li><strong>&quot;Oranges are not the only fruit&quot;</strong>, by Jeanette Winterson. <strong>3.5/5</strong>. 我本來是對有些年代的作品不很感興趣的，在Fediverse看到有朋友推薦的這位作家，於是找來其最知名的作品嘗試一讀。沒有找到質量高的中文譯本，於是讀原文。事實上，我的英文水平在閱讀其中相當多的宗教和傳說隱喻時仍有困難，因此這一不高的評分很可能是我的不足。講極端宗教家庭中的女同性戀者的成長，但沒有遵循酷兒break out的框架，結局還是有深刻意義的。</li>
+<li><strong>&quot;A Prayer for the Crown-Shy&quot;</strong>, by Becky Chambers. <strong>3.5/5</strong>. 當月發行的新書，上一篇博文中&quot;A Psalm for the wild-built&quot;的續篇。還是一樣的輕鬆愉快，主角和機器人環遊各類聚落，看這個世界觀下的生活方式。缺憾是覺得寫的有點草率。</li>
+<li><strong>&quot;Ace: What Asexuality Reveals About Desire, Society, and the Meaning of Sex&quot;</strong>, by Angela Chen. <strong>4.5/5</strong>. 算是極其少見的向大衆普及Asexual這個概念的書。作者自身作爲其中一員，也做足了調研，內容涵蓋了相關的各個方面：從這一身份的定義講起，談及compulsory sexuality，與種族和身體殘疾的交叉性、無浪漫光譜等，並以此爲契機，對當今社會的關係法則、性行爲的同意規則等進行了反思和挑戰。內容和觀點是無可挑剔的。若說不足的話作者多處想通過描述自身的關係使大衆讀者更容易理解，可以感覺到寫的很struggle，讀起來也不是那麼順暢。</li>
+<li><strong>&quot;Influence Empire: The Story of Tencent and China's Tech Ambition&quot;</strong>, by Lulu Chen. <strong>3/5</strong>. 當月發行的新書，採用Audiobook聽讀。相比傳統閱讀，我目前認爲Audiobook形式並沒有影響閱讀效果。從騰訊創立開始，一直寫到現在，覆蓋了重大事件：QQ的創立與發展、與MSN競爭、3Q大戰、進軍移動時代、微信、移動支付、對美團和滴滴的投資、在桌面和移動端遊戲產業的投入、中美競爭和國內監管造成的打擊。報導基本準確，且包含相當在境內媒體難以獲得的資料。作爲面向英語讀者介紹騰訊和中國互聯網的商業書籍，應稱得上是佳作。但缺憾也明顯。首先章節有些過於碎片化，每節像獨立的媒體文章，讀來不太流暢。其次，內容中騰訊對中國人產生的影響的某些方面沒有提及，大概受篇幅和報導能力所限。最後是整體基調有些過於techno-optimism，最後一章談到Metaverse和Web 3不免有些不着邊際。</li>
+<li><strong>&quot;Gender Queer: A Memoir&quot;</strong>. by Maia Kobabe. 5/5. 美國近日最受爭議的書籍，多個學校和圖書館被要求移除該書。是繪本，作者描述自己成長和探索自己non-binary的身份的過程。很好讀，一小時就可以翻完。讀來很親切，能夠充分共情。可以想象若是自己以及其他酷兒少年時期能閱讀此書，定能獲得相當的快樂和自我肯定。而以保守派爲主的團體以包含色情內容爲由要求移除該書，書中確實包含了少數男男性行爲的描繪，但整體處於相當受控的範圍，保守派團體的舉動只能理解爲對少數羣體的恐懼和歧視。</li>
+</ul>
+<p>下面額外寫點最近看或聽的其他媒體。不嚴肅，僅談談感受。</p>
+<h2 id="影片-videos">影片 Videos</h2>
+<p>首先是兩部英語成人動畫。</p>
+<ul>
+<li><strong>&quot;Solar Opposites&quot;</strong>. 兩大兩小四個外星人加上一個外星寵物在地球生活的故事。雖然是外星人，但在劇中不得不按照地球家庭的方式生活（雖然外星人沒有性別，按照配音和在地球上的行爲表達來看，兩個大的是男性，小的男女各一）。笑點很足，看了不知道該是外星人荒謬還是人類社會本身荒謬。</li>
+<li><strong>&quot;Tuca and Bertie&quot;</strong>. 之前看了S1-2，目前在更新S3。以兩個女性鳥人的友情爲主線，情節很好，世界觀也很有趣。可惜個人認爲色情內容有些過度。</li>
+</ul>
+<p>然後是一部番劇。</p>
+<ul>
+<li><strong>&quot;ゆるキャン&quot;</strong>. 是神作。看了就會心情變好。</li>
+</ul>
+<h2 id="播客-podcast">播客 Podcast</h2>
+<p>英文的。</p>
+<ul>
+<li><a href="https://podcasts.apple.com/us/podcast/youre-wrong-about/id1380008439?mt=2">&quot;You're Wrong About&quot;</a>. 推薦單集<a href="https://podcasts.apple.com/us/podcast/the-prison-boom-w-shannon-heffernan/id1380008439?i=1000563352675">&quot;The Prison Boom&quot;</a>。算是我訂閱的英文播客中少數的比較輕鬆的。每集講一個美國近代的社會文化現象，觀點蠻對得上我口味的。</li>
+<li><a href="https://www.nytimes.com/column/ezra-klein-podcast">&quot;The Ezra Klein Show&quot;</a>. 推薦單集<a href="https://www.nytimes.com/2022/08/05/opinion/ezra-klein-podcast-kathryn-bond-stockton.html">&quot;Gender is complicated for all of us&quot;</a>。知名媒體人Ezra Klein主持，每期訪談一位專家，就社會熱點問題進行討論。主持應該是進步派人士，但邀請的嘉賓觀點還是比較多樣的，能引發自己的思考。得益於Klein的能力，一般都能把問題講的清楚明白。</li>
+</ul>
+<p>日文的。</p>
+<ul>
+<li><a href="https://podcasts.apple.com/jp/podcast/laundry-4-00am/id1553194199">&quot;LAUNDRY 4:00AM&quot;</a>. 先是聽到ぷにぷに電機的音樂，之後發現Ta和メチクロ共同製作的播客。這個播客時長較短，形式基本上就是兩位朋友聊天，比較輕鬆，但語速較快，聽力難度較高。可能因爲兩位作者都從事文藝工作，加上ぷに電是使用They代詞的人士，個人感覺該播客會談到一些在日本比較少見或是偏向進步的話題。</li>
+</ul>
+<h2 id="總結">總結</h2>
+<p>希望秋天新生活順利。剩餘想讀的書目多數是日文了，有空可以嘗試一下。如果想到有趣的話題也會在博客更新其他的內容。</p>
+]]></content>
+    </entry>
+</feed>
